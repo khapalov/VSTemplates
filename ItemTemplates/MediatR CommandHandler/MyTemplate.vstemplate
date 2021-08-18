@@ -13,10 +13,6 @@
         <Assembly>MediatR</Assembly>
       </Reference>
     </References>
-    <CustomParameters>
-      <CustomParameter Name="$command$" Value="Comamnd"/>
-      <CustomParameter Name="$response$" Value="Response"/>
-    </CustomParameters>
     <ProjectItem SubType="" TargetFileName="$fileinputname$Handler.cs" ReplaceParameters="true">MyCommandHandler.cs</ProjectItem>
     <ProjectItem SubType="" TargetFileName="$fileinputname$Command.cs" ReplaceParameters="true">MyCommand.cs</ProjectItem>
     <ProjectItem SubType="" TargetFileName="$fileinputname$Response.cs" ReplaceParameters="true">MyResponse.cs</ProjectItem>
